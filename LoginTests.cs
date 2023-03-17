@@ -40,7 +40,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.XPath("//*[@id=\"page-header\"]/div[2]/ul/li[2]/div/div[1]/div[1]")).Text;
             var expectedResult = "@test_testov";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+            Assert.That(actual, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -57,7 +57,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.XPath("//*[@id=\"page-header\"]/div[2]/ul/li[2]/div/div[1]/div[1]")).Text;
             var expectedResult = "@test_testov";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+           Assert.That(actual, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -74,7 +74,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.XPath("//*[@id=\"page-header\"]/div[2]/ul/li[2]/div/div[1]/div[1]")).Text;
             var expectedResult = "@test_testov";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+            Assert.That(actual, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -90,7 +90,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.ClassName("validation-summary-errors")).Text;
             var expectedResult = "Невалидно потребителско име или парола";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+           Assert.That(actual, Is.EqualTo(expectedResult));
 
         }
 
@@ -107,7 +107,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.ClassName("validation-summary-errors")).Text;
             var expectedResult = "Невалидно потребителско име или парола";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+            Assert.That(actual, Is.EqualTo(expectedResult));
 
         }
 
@@ -124,7 +124,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.ClassName("validation-summary-errors")).Text;
             var expectedResult = "Невалидно потребителско име или парола";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+            Assert.That(actual, Is.EqualTo(expectedResult));
 
         }
 
@@ -141,7 +141,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.ClassName("validation-summary-errors")).Text;
             var expectedResult = "Невалидно потребителско име или парола";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+            Assert.That(actual, Is.EqualTo(expectedResult));
 
         }
 
@@ -158,7 +158,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.ClassName("validation-summary-errors")).Text;
             var expectedResult = "Невалидно потребителско име или парола";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+           Assert.That(actual, Is.EqualTo(expectedResult));
 
         }
 
@@ -175,7 +175,7 @@ namespace SoftUniWebDriverTestsExamples
             var actual = driver.FindElement(By.ClassName("validation-summary-errors")).Text;
             var expectedResult = "Невалидно потребителско име или парола";
 
-            Assert.That(expectedResult, Is.EqualTo(actual));
+            Assert.That(actual, Is.EqualTo(expectedResult));
 
         }
     }
